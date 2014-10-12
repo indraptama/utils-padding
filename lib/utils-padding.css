@@ -1,0 +1,160 @@
+/* ==========================================================================
+   #Spacing Unit
+   ========================================================================== */
+
+:root {
+  --base-spacing-unit: 1.5rem;
+}
+
+
+/**
+ * extra 
+
+ spacing on all side
+ */
+
+.u-padAll {
+  padding: var(--base-spacing-unit)!important;
+}
+
+.u-padAll--oneHalf {
+  padding: calc(var(--base-spacing-unit)/1.5)!important;
+}
+
+.u-padAll--half {
+  padding: calc(var(--base-spacing-unit)/2)!important;
+}
+
+.u-padAll--third {
+  padding: calc(var(--base-spacing-unit)/3)!important;
+}
+
+/**
+ * extra spacing on top and bottom side
+ */
+
+.u-padTall {
+  padding-top: var(--base-spacing-unit)!important;
+  padding-bottom: var(--base-spacing-unit)!important;
+}
+
+.u-padTall--oneHalf {
+  padding-top: calc(var(--base-spacing-unit)/1.5)!important;
+  padding-bottom: calc(var(--base-spacing-unit)/1.5)!important;
+}
+
+.u-padTall--half {
+  padding-top: calc(var(--base-spacing-unit)/2)!important;
+  padding-bottom: calc(var(--base-spacing-unit)/2)!important;
+}
+
+.u-padTall--third {
+  padding-top: calc(var(--base-spacing-unit)/3)!important;
+  padding-bottom: calc(var(--base-spacing-unit)/3)!important;
+}
+
+
+/**
+ * extra spacing on both side
+ */
+
+.u-padSide {
+  padding-right: var(--base-spacing-unit)!important;
+  padding-left: var(--base-spacing-unit)!important;
+ }
+
+.u-padSide--oneHalf {
+  padding-right: calc(var(--base-spacing-unit)/1.5)!important;
+  padding-left: calc(var(--base-spacing-unit)/1.5)!important;
+}
+
+.u-padSide--half {
+  padding-right: calc(var(--base-spacing-unit)/2)!important;
+  padding-left: calc(var(--base-spacing-unit)/2)!important;
+}
+
+.u-padSide--third {
+  padding-top: calc(var(--base-spacing-unit)/3)!important;
+  padding-bottom: calc(var(--base-spacing-unit)/3)!important;
+}
+
+
+/**
+ * extra on top
+ */
+
+.u-padTop {
+  padding-top: var(--base-spacing-unit)!important;
+ }
+
+.u-padTop--oneHalf {
+  padding-top: calc(var(--base-spacing-unit)/1.5)!important;
+}
+
+.u-padTop--half {
+  padding-top: calc(var(--base-spacing-unit)/2)!important;
+}
+
+.u-padTop--third {
+  padding-top: calc(var(--base-spacing-unit)/3)!important;
+}
+
+/**
+ * extra spacing on bottom 
+ */
+
+.u-padBottom {
+  padding-bottom: var(--base-spacing-unit)!important;
+}
+
+.u-padBottom--oneHalf {
+  padding-bottom: calc(var(--base-spacing-unit)/1.5)!important;
+}
+
+.u-padBottom--half {
+  padding-bottom: calc(var(--base-spacing-unit)/2)!important;
+}
+
+.u-padBottom--third {
+  padding-bottom: calc(var(--base-spacing-unit)/3)!important;
+}
+
+/**
+ * extra spacing on left
+ */
+
+.u-padLeft {
+padding-left: var(--base-spacing-unit)!important;
+}
+
+.u-padLeft--oneHalf {
+  padding-left: calc(var(--base-spacing-unit)/1.5)!important;
+}
+
+.u-padLeft--half {
+  padding-left: calc(var(--base-spacing-unit)/2)!important;
+}
+
+.u-padLeft--third {
+  padding-left: calc(var(--base-spacing-unit)/3)!important;
+}
+
+/**
+ * extra spacing on right
+ */
+
+ .u-padRight {
+  padding-right: var(--base-spacing-unit)!important;
+ }
+ 
+ .u-padRight--oneHalf {
+  padding-right: calc(var(--base-spacing-unit)/1.5)!important;
+ }
+
+ .u-padRight--half {
+  padding-right: calc(var(--base-spacing-unit)/2)!important;
+ }
+
+.u-padRight--third {
+  padding-right: calc(var(--base-spacing-unit)/3)!important;
+}
