@@ -1,1 +1,4 @@
-@import "./lib/utils-padding.css";
+@import "./lib/padding.css";
+@import "./lib/padding-sm.css";
+@import "./lib/padding-md.css";
+@import "./lib/padding-lg.css";

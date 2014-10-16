@@ -1,0 +1,158 @@
+
+/**
+ * Padding on Small breakpoint
+ */
+
+
+@media(--lg-viewport) {
+
+  /**
+   * extra  spacing on all side
+   */
+
+  .u-lg-padAll {
+    padding: var(--base-spacing-unit)!important;
+  }
+
+  .u-lg-padAll--oneHalf {
+    padding: calc(var(--base-spacing-unit)/1.5)!important;
+  }
+
+  .u-lg-padAll--half {
+    padding: calc(var(--base-spacing-unit)/2)!important;
+  }
+
+  .u-lg-padAll--third {
+    padding: calc(var(--base-spacing-unit)/3)!important;
+  }
+
+  /**
+   * extra spacing on top and bottom side
+   */
+
+  .u-lg-padTall {
+    padding-bottom: var(--base-spacing-unit)!important;
+    padding-top: var(--base-spacing-unit)!important;
+  }
+
+  .u-lg-padTall--oneHalf {
+    padding-bottom: calc(var(--base-spacing-unit)/1.5)!important;
+    padding-top: calc(var(--base-spacing-unit)/1.5)!important;
+  }
+
+  .u-lg-padTall--half {
+    padding-bottom: calc(var(--base-spacing-unit)/2)!important;
+    padding-top: calc(var(--base-spacing-unit)/2)!important;
+  }
+
+  .u-lg-padTall--third {
+    padding-bottom: calc(var(--base-spacing-unit)/3)!important;
+    padding-top: calc(var(--base-spacing-unit)/3)!important;
+  }
+
+
+  /**
+   * extra spacing on both side
+   */
+
+  .u-lg-padSide {
+    padding-left: var(--base-spacing-unit)!important;
+    padding-right: var(--base-spacing-unit)!important;
+   }
+
+  .u-lg-padSide--oneHalf {
+    padding-left: calc(var(--base-spacing-unit)/1.5)!important;
+    padding-right: calc(var(--base-spacing-unit)/1.5)!important;
+  }
+
+  .u-lg-padSide--half {
+    padding-left: calc(var(--base-spacing-unit)/2)!important;
+    padding-right: calc(var(--base-spacing-unit)/2)!important;
+  }
+
+  .u-lg-padSide--third {
+    padding-bottom: calc(var(--base-spacing-unit)/3)!important;
+    padding-top: calc(var(--base-spacing-unit)/3)!important;
+  }
+
+
+  /**
+   * extra on top
+   */
+
+  .u-lg-padTop {
+    padding-top: var(--base-spacing-unit)!important;
+   }
+
+  .u-lg-padTop--oneHalf {
+    padding-top: calc(var(--base-spacing-unit)/1.5)!important;
+  }
+
+  .u-lg-padTop--half {
+    padding-top: calc(var(--base-spacing-unit)/2)!important;
+  }
+
+  .u-lg-padTop--third {
+    padding-top: calc(var(--base-spacing-unit)/3)!important;
+  }
+
+  /**
+   * extra spacing on bottom 
+   */
+
+  .u-lg-padBottom {
+    padding-bottom: var(--base-spacing-unit)!important;
+  }
+
+  .u-lg-padBottom--oneHalf {
+    padding-bottom: calc(var(--base-spacing-unit)/1.5)!important;
+  }
+
+  .u-lg-padBottom--half {
+    padding-bottom: calc(var(--base-spacing-unit)/2)!important;
+  }
+
+  .u-lg-padBottom--third {
+    padding-bottom: calc(var(--base-spacing-unit)/3)!important;
+  }
+
+  /**
+   * extra spacing on left
+   */
+
+  .u-lg-padLeft {
+  padding-left: var(--base-spacing-unit)!important;
+  }
+
+  .u-lg-padLeft--oneHalf {
+    padding-left: calc(var(--base-spacing-unit)/1.5)!important;
+  }
+
+  .u-lg-padLeft--half {
+    padding-left: calc(var(--base-spacing-unit)/2)!important;
+  }
+
+  .u-lg-padLeft--third {
+    padding-left: calc(var(--base-spacing-unit)/3)!important;
+  }
+
+  /**
+   * extra spacing on right
+   */
+
+   .u-lg-padRight {
+    padding-right: var(--base-spacing-unit)!important;
+   }
+   
+   .u-lg-padRight--oneHalf {
+    padding-right: calc(var(--base-spacing-unit)/1.5)!important;
+   }
+
+   .u-lg-padRight--half {
+    padding-right: calc(var(--base-spacing-unit)/2)!important;
+   }
+
+  .u-lg-padRight--third {
+    padding-right: calc(var(--base-spacing-unit)/3)!important;
+  }
+}
