@@ -3,7 +3,10 @@
   "repo": "indraptama/utils-padding",
   "version": "0.0.1",
   "styles": [
-    "lib/utils-padding.css"
+    "lib/padding.css",
+    "lib/padding-sm.css",
+    "lib/padding-md.css",
+    "lib/padding-lg.css"
   ],
   "author": "Indra Pratama Putra",
   "license": "MIT"
